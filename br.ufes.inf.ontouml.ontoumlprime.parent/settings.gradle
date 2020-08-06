@@ -1,0 +1,3 @@
+include 'br.ufes.inf.ontouml.ontoumlprime'
+include 'br.ufes.inf.ontouml.ontoumlprime.ide'
+include 'br.ufes.inf.ontouml.ontoumlprime.tests'

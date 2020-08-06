@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: br.ufes.inf.ontouml.ontoumlprime
+Bundle-ManifestVersion: 2
+Bundle-Name: br.ufes.inf.ontouml.ontoumlprime
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: br.ufes.inf.ontouml.ontoumlprime; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: br.ufes.inf.ontouml.ontoumlprime,
+ br.ufes.inf.ontouml.ontoumlprime.serializer,
+ br.ufes.inf.ontouml.ontoumlprime.dsl,
+ br.ufes.inf.ontouml.ontoumlprime.parser.antlr,
+ br.ufes.inf.ontouml.ontoumlprime.dsl.impl,
+ br.ufes.inf.ontouml.ontoumlprime.validation,
+ br.ufes.inf.ontouml.ontoumlprime.generator,
+ br.ufes.inf.ontouml.ontoumlprime.dsl.util,
+ br.ufes.inf.ontouml.ontoumlprime.scoping,
+ br.ufes.inf.ontouml.ontoumlprime.parser.antlr.internal,
+ br.ufes.inf.ontouml.ontoumlprime.services
+Import-Package: org.apache.log4j
